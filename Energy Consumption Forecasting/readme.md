@@ -1,1 +1,2 @@
-
+# **Overview**
+This project analyzes energy consumption patterns using time series analysis (TSA) techniques while integrating exogenous factors such as weather conditions and holiday indicators. The aim is to build a robust forecasting model that provides insights into energy demand fluctuations over time. The dataset combines daily energy usage records from households, detailed weather data, and UK bank holidays to create a comprehensive understanding of the factors influencing energy consumption.
