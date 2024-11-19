@@ -22,3 +22,32 @@ This project analyzes energy consumption patterns using time series analysis (TS
     
     - Time series visualizations allowed for clear interpretation of seasonal and weather-related trends.
     - Correlation matrices provided valuable insights into how weather variables impact energy consumption.
+
+## Key Observations
+
+1. **Energy-Weather Relationship**:
+    
+    - A clear correlation was observed between average energy consumption and temperature extremes (both high and low).
+    - Humidity and cloud cover also exhibited noticeable effects on energy demand, reflecting possible heating and cooling patterns.
+2. **Seasonality and Trends**:
+    
+    - Decomposition of the time series revealed strong seasonal components, likely driven by changes in weather and daylight across months.
+    - Long-term trends indicate an increase in energy consumption during certain periods, possibly due to seasonal shifts or societal behaviors.
+3. **Holiday Effects**:
+    
+    - Energy demand exhibited a noticeable drop during public holidays, highlighting behavioral shifts in household energy usage patterns.
+4. **Model Performance**:
+    
+    - The **SARIMAX model** (Seasonal ARIMA with exogenous variables) demonstrated the ability to capture energy demand dynamics effectively.
+    - Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) were used to evaluate model accuracy, with reasonable performance metrics achieved.
+  
+## Recommendations
+
+1. **Operational Decision-Making**:
+    
+    - Utilities and policymakers can use this model to anticipate energy demand surges during extreme weather events or specific seasons.
+    - Incorporating predictive insights into load balancing systems can improve grid reliability and efficiency.
+2. **Further Data Integration**:
+    
+    - Adding more granular data, such as hourly energy usage or real-time weather updates, can enhance model accuracy.
+    - Including socio-economic factors (e.g., population density, income levels) may uncover deeper patterns.
